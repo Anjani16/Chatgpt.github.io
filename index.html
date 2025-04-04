@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Delivery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>FastEats</h1>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="hero">
+        <h2>Delicious Food, Delivered Fast</h2>
+        <p>Order your favorite meals with ease</p>
+        <input type="text" placeholder="Search for food...">
+        <button>Search</button>
+    </section>
+    
+    <section class="menu">
+        <h2>Our Menu</h2>
+        <select id="sort">
+            <option value="popular">Most Popular</option>
+            <option value="rating">Highest Rated</option>
+            <option value="price">Lowest Price</option>
+        </select>
+        <div class="food-items">
+            <div class="food">
+                <img src="burger.jpg" alt="Burger">
+                <p>Burger - $5.99</p>
+            </div>
+            <div class="food">
+                <img src="pizza.jpg" alt="Pizza">
+                <p>Pizza - $8.99</p>
+            </div>
+            <div class="food">
+                <img src="pasta.jpg" alt="Pasta">
+                <p>Pasta - $6.99</p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="promo">
+        <h2>Watch How We Make Our Food</h2>
+        <video controls>
+            <source src="cooking.mp4" type="video/mp4">
+        </video>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 FastEats. All rights reserved.</p>
+    </footer>
+</body>
+</html>
